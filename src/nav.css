@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.nav{
+    display:flex;
+    height:70px;
+    width:100%;
+    background-color: rgb(204, 224, 233);
+}
+
+.nav1 img{
+    height:70px;
+    width:200px;
+}
+
+
+.ul{
+    list-style: none;
+    display:flex;
+    margin-left:490px;
+}
+.ul li{
+    margin-top:25px;
+    margin-left: 70px;
+}
+

@@ -1,0 +1,23 @@
+import React from 'react'
+import './nav.css'
+import bg from "../public/g.png"
+import logo from "../public/logo.png"
+function Nav() {
+  return (
+    <div>
+    <div className='nav'>
+      <div className='nav1'><img src={logo}></img></div>  
+      <div>
+      <ul className='ul'>
+        <li>🏠︎ Home</li>
+        <li>🛍️Shopping</li>
+        <li>🛒Cart</li>
+        <li>☏Contact</li>
+      </ul>
+      </div>
+    </div>
+    </div>
+  )
+}
+
+export default Nav
