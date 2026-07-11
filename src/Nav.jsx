@@ -2,6 +2,7 @@ import React from 'react'
 import './nav.css'
 import bg from "../public/g.png"
 import logo from "../public/logo.png"
+import {Link} from 'react-router-dom'
 function Nav() {
   return (
     <div>
@@ -9,7 +10,7 @@ function Nav() {
       <div className='nav1'><img src={logo}></img></div>  
       <div>
       <ul className='ul'>
-        <li>🏠︎ Home</li>
+        <li><Link to ="/">🏠︎ Home</Link></li>
         <li>🛍️Shopping</li>
         <li>🛒Cart</li>
         <li>☏Contact</li>

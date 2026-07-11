@@ -5,8 +5,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div>
-      <Nav />
+      
       <BrowserRouter>
+      <Nav />
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
       </Routes>
