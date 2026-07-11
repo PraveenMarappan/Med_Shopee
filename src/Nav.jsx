@@ -11,7 +11,7 @@ function Nav() {
       <div>
       <ul className='ul'>
         <li><Link to ="/">🏠︎ Home</Link></li>
-        <li>🛍️Shopping</li>
+        <li><Link to = "/shop">🛍️Shopping</Link></li>
         <li>🛒Cart</li>
         <li>☏Contact</li>
       </ul>

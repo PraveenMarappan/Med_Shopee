@@ -22,3 +22,9 @@
     border-radius:25px;
     font-size: 19px;
 }
+.shop a{
+    text-decoration: none;
+}
+.shop a:hover {
+  color: #00c853;
+}
