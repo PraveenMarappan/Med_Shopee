@@ -6,7 +6,7 @@
 
 .img{
     width:100%;
-    height:513px;
+    height:760px;
     position: relative;
 }
 .text{
@@ -49,4 +49,49 @@
     background-color: #9CD0DE;
     border:none;
     border-radius: 5px;
+}
+
+
+.card img{
+    margin-top: 10px;
+    height:100px;
+    width:100px;
+}
+
+.c{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    height:300px;
+    width:900px;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-right:100px;
+}
+
+.card{
+    height:230px;
+    width:160px;
+    margin-top:20px;
+    border-radius: 10px;
+    background-color: #9CD0DE; 
+}
+
+.c button{
+    margin-left:40px;
+    border:none;
+    height:20px;
+    width:100px;
+    border-radius: 25px;
+}
+
+.c h1 p{
+    margin-left:10px;
+}
+.p{
+    margin-left: 20px;
+}
+
+.c button:hover{
+    background-color: green;
+    color:white;
 }
