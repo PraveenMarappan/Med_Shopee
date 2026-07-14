@@ -1,32 +1,107 @@
-.bg{
-    height:100%;
+
+.home1{
     width:100%;
-    position: relative;
+    min-height:100vh;
+    position:relative;
+    overflow:hidden;
 }
 
-.text{
+
+.bg1{
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+    display:block;
+}
+
+.text1{
     position:absolute;
-    top:100px;
+    top:20px;
     left:70px;
-}
-.text h1{
-    font-size: 30px;
-}
-.text h2{
-    font-size: 50px;
+    color:#000;
 }
 
-.shop{
-    height:50px;
-    width:300px;
-    background-color: #9CD0DE;
+.text1 h1{
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.text1 h2{
+    font-size:55px;
+    line-height:1.2;
+    margin-bottom:20px;
+    color:#0b3b67;
+}
+
+.text1 p{
+    font-size:18px;
+    line-height:30px;
+    margin-bottom:30px;
+}
+
+
+.shop1{
+    width:280px;
+    height:55px;
     border:none;
-    border-radius:25px;
-    font-size: 18px;
+    border-radius:30px;
+    background:#9CD0DE;
+    cursor:pointer;
+    transition:.3s;
 }
-.shop a{
-    text-decoration: none;
+
+.shop1:hover{
+    background:#7bc6da;
+    transform:translateY(-3px);
 }
-.shop a:hover {
-  color: #00c853;
+
+.bg1 a{
+    text-decoration:none;
+    color:#0b3b67;
+    font-size:18px;
+    font-weight:600;
+    display:block;
+    line-height:55px;
+}
+
+.shop1 a:hover{
+    color:#008000;
+}
+
+
+
+@media (max-width:768px){
+
+    .bg1{
+        height:100vh;
+    }
+
+    .text1{
+        left:25px;
+        top:90px;
+    }
+
+    .text1 h1{
+        font-size:24px;
+    }
+
+    .text1 h2{
+        font-size:36px;
+    }
+
+    .text1 p{
+        font-size:16px;
+        line-height:24px;
+    }
+
+    .shop1{
+        width:220px;
+        height:50px;
+    }
+
+    .shop1 a{
+        line-height:50px;
+        font-size:16px;
+    }
+
 }

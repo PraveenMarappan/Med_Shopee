@@ -13,7 +13,7 @@ function Nav() {
         <li><Link to ="/">🏠︎ Home</Link></li>
         <li><Link to = "/shop">🛍️Shopping</Link></li>
         <li><Link to = "/cart">🛒Cart</Link></li>
-        <li>☏Contact</li>
+        <li><Link to = "/contact">☏Contact</Link></li>
       </ul>
       </div>
     </div>
