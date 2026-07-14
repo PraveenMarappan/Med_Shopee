@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./shop.css";
 import image from "../public/bgshop.png";
-
+import {Link} from 'react-router-dom';
 function Shop() {
   const [search, setSearch] = useState("");
 
@@ -53,14 +53,11 @@ function Shop() {
       <img src={image} className="img" alt="Background" />
 
       <div className="text">
-        <h1>Shop Medicines & Health Care</h1>
-        <br />
+        <h2>Shop Medicines & Health Care</h2>
 
-        <p>
-          Find the best medicine & healthcare products for you and your family
-        </p>
+        <p>Find the best medicine & healthcare products for you and your family</p>
 
-        <br />
+      
 
         {/* Search Box */}
         <div className="b1">
@@ -76,9 +73,8 @@ function Shop() {
           <button className="b3">Search</button>
         </div>
 
-        <br />
 
-        <h3>Categories</h3>
+        <h3 className='p'>Categories</h3>
 
         <div className="categories">
           <button>💊<br />Tablets</button>
@@ -92,7 +88,7 @@ function Shop() {
           <button>🩺<br />Devices</button>
         </div>
 
-        <h3>Popular Products</h3>
+        <h3 className='p'>Popular Products</h3>
 
         <div className="c">
           {filteredProducts.length > 0 ? (
@@ -105,13 +101,13 @@ function Shop() {
                 <br />
                 <br />
 
-                <h1 className="p">{item.name}</h1>
+                <h3 className="p">{item.name}</h3>
 
-                <p className="p">Rupees: {item.price}</p>
+                <p className="p1">Rupees: {item.price}</p>
 
-                <br />
-
-                <button>Buy Now</button>
+              
+                <Link to= '/cart'  state={item}>
+                <button>Buy Now</button></Link>
               </div>
             ))
           ) : (

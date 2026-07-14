@@ -1,5 +1,5 @@
 .bg{
-    height:513px;
+    height:100%;
     width:100%;
     position: relative;
 }
@@ -9,9 +9,11 @@
     top:100px;
     left:70px;
 }
-
+.text h1{
+    font-size: 30px;
+}
 .text h2{
-    font-size: 65px;
+    font-size: 50px;
 }
 
 .shop{
@@ -20,7 +22,7 @@
     background-color: #9CD0DE;
     border:none;
     border-radius:25px;
-    font-size: 19px;
+    font-size: 18px;
 }
 .shop a{
     text-decoration: none;

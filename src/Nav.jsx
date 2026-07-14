@@ -12,7 +12,7 @@ function Nav() {
       <ul className='ul'>
         <li><Link to ="/">🏠︎ Home</Link></li>
         <li><Link to = "/shop">🛍️Shopping</Link></li>
-        <li>🛒Cart</li>
+        <li><Link to = "/cart">🛒Cart</Link></li>
         <li>☏Contact</li>
       </ul>
       </div>
